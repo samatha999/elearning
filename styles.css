@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-container, .login-container, .signup-container, .home-container, .courses-container, .course-details-container, .logout-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+.course-details-container video {
+    width: 100%;
+    margin-bottom: 20px;
+}
